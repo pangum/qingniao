@@ -1,11 +1,11 @@
-package starter
+package qingniao
 
 import (
 	"github.com/pangum/pangu"
 )
 
 func init() {
-	pangu.New().Dependencies(
-		newAgent,
+	pangu.New().Dependency(
+		newSender,
 	)
 }
