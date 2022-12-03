@@ -3,7 +3,7 @@ module github.com/pangum/qingniao
 go 1.19
 
 require (
-	github.com/goexl/qingniao v0.0.1
+	github.com/goexl/qingniao v0.0.2
 	github.com/pangum/http v0.1.3
 	github.com/pangum/logging v0.1.8
 	github.com/pangum/pangu v0.2.9

@@ -13,6 +13,9 @@ type Sender struct {
 
 func newSender(http *http.Client, logger *logging.Logger) *Sender {
 	return &Sender{
-		Sender: qingniao.New(http.Client, logger),
+		Sender: qingniao.New(
+			qingniao.HttpClient(http.Client),
+			qingniao.Logger(logger),
+		),
 	}
 }
