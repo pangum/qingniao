@@ -9,7 +9,10 @@
 ![最佳语言](https://img.shields.io/github/languages/top/pangum/pangu)
 ![星星个数](https://img.shields.io/github/stars/pangum/pangu?style=social)
 
-项目介绍
+通知方案集成，支持
+- `短信`
+- `邮件`
+- `微信公众号`
 
 ## 捐助
 
