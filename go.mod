@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/goexl/qingniao v0.0.3
-	github.com/pangum/http v0.1.4
+	github.com/pangum/http v0.1.7
 	github.com/pangum/logging v0.1.9
 	github.com/pangum/pangu v0.3.0
 )
