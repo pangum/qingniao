@@ -11,7 +11,7 @@ type Sender struct {
 	*qingniao.Sender
 }
 
-func newSender(http *http.Client, logger *logging.Logger) *Sender {
+func newSender(http *http.Client, logger logging.Logger) *Sender {
 	return &Sender{
 		Sender: qingniao.New(
 			qingniao.HttpClient(http.Client),
