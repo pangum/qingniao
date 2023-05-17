@@ -3,7 +3,7 @@ module github.com/pangum/qingniao
 go 1.19
 
 require (
-	github.com/goexl/qingniao v0.0.3
+	github.com/goexl/qingniao v0.0.4
 	github.com/pangum/http v0.1.9
 	github.com/pangum/logging v0.2.0
 	github.com/pangum/pangu v0.3.1
@@ -27,7 +27,6 @@ require (
 	github.com/goexl/xiren v0.0.5 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/jordan-wright/email v4.0.1-0.20210109023952-943e75fe5223+incompatible // indirect
-	github.com/kr/text v0.2.0 // indirect
 	github.com/leodido/go-urn v1.2.4 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/rs/xid v1.5.0 // indirect
