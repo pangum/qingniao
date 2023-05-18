@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/goexl/qingniao v0.0.4
-	github.com/pangum/http v0.1.9
+	github.com/pangum/http v0.2.0
 	github.com/pangum/logging v0.2.0
 	github.com/pangum/pangu v0.3.1
 )
@@ -31,7 +31,7 @@ require (
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/rs/xid v1.5.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
-	github.com/sirupsen/logrus v1.9.0 // indirect
+	github.com/sirupsen/logrus v1.9.2 // indirect
 	github.com/storezhang/dig v0.0.1 // indirect
 	github.com/urfave/cli/v2 v2.25.3 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
