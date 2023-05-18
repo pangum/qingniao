@@ -7,15 +7,11 @@ import (
 )
 
 // Sender 发送者
-type Sender struct {
-	*qingniao.Sender
-}
+type Sender = qingniao.Sender
 
 func newSender(http *http.Client, logger logging.Logger) *Sender {
-	return &Sender{
-		Sender: qingniao.New(
-			qingniao.HttpClient(http.Client),
-			qingniao.Logger(logger),
-		),
-	}
+	return qingniao.New(
+		qingniao.HttpClient(http.Client),
+		qingniao.Logger(logger),
+	)
 }
