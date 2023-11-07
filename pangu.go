@@ -2,10 +2,12 @@ package qingniao
 
 import (
 	"github.com/pangum/pangu"
+	"github.com/pangum/qingniao/internal/plugin"
 )
 
 func init() {
-	pangu.New().Dependency(
-		newSender,
-	)
+	ctor := new(plugin.Constructor)
+	pangu.New().Get().Dependency().Put(
+		ctor.New,
+	).Build().Build().Apply()
 }
