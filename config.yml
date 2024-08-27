@@ -1,0 +1,16 @@
+qingniao:
+  sms:
+    chuangcache:
+      ak: xx
+      sk: xx
+
+  email:
+    smtp:
+      host: xx
+      port: xx
+      username: xx
+      password: xx
+
+  wechat:
+    serverchan:
+      key: xx
