@@ -1,11 +1,11 @@
 module github.com/pangum/qingniao
 
-go 1.23
+go 1.24
 
 require (
 	github.com/goexl/config v0.0.1
 	github.com/goexl/http v0.2.0
-	github.com/goexl/log v0.0.7
+	github.com/goexl/log v0.1.0
 	github.com/goexl/qingniao v0.1.1
 	github.com/pangum/pangu v0.5.6
 )
@@ -24,7 +24,7 @@ require (
 	github.com/goexl/exc v0.0.5 // indirect
 	github.com/goexl/exception v0.0.1 // indirect
 	github.com/goexl/gfx v0.1.7 // indirect
-	github.com/goexl/gox v0.6.3 // indirect
+	github.com/goexl/gox v1.9.2 // indirect
 	github.com/goexl/mengpo v0.2.6 // indirect
 	github.com/goexl/xiren v0.0.6 // indirect
 	github.com/google/uuid v1.6.0 // indirect
