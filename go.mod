@@ -6,7 +6,7 @@ require (
 	github.com/goexl/config v0.0.1
 	github.com/goexl/http v0.2.0
 	github.com/goexl/log v0.0.7
-	github.com/goexl/qingniao v0.1.1
+	github.com/goexl/qingniao v0.1.5
 	github.com/pangum/pangu v0.5.6
 )
 
